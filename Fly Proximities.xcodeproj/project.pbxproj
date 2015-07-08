@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42321A881B01470C008255E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42321A871B01470C008255E8 /* main.m */; };
+		42321A8B1B01470C008255E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42321A8A1B01470C008255E8 /* AppDelegate.m */; };
+		42321A931B01470C008255E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42321A921B01470C008255E8 /* Images.xcassets */; };
+		42321A961B01470C008255E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42321A941B01470C008255E8 /* LaunchScreen.xib */; };
+		42321AA21B01470D008255E8 /* Fly_ProximitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42321AA11B01470D008255E8 /* Fly_ProximitiesTests.m */; };
+		42321AB11B01473C008255E8 /* ESTBeaconTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42321AAC1B01473C008255E8 /* ESTBeaconTableVC.m */; };
+		42321AB21B01473C008255E8 /* ESTProximityDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42321AAE1B01473C008255E8 /* ESTProximityDemoVC.m */; };
+		42321AB31B01473C008255E8 /* ESTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42321AB01B01473C008255E8 /* ESTViewController.m */; };
+		42321ABB1B014822008255E8 /* EstimoteSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42321ABA1B014822008255E8 /* EstimoteSDK.framework */; };
+		42321ABD1B01483A008255E8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42321ABC1B01483A008255E8 /* SystemConfiguration.framework */; };
+		42321ABF1B014848008255E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42321ABE1B014848008255E8 /* CoreGraphics.framework */; };
+		42321AC11B014852008255E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42321AC01B014852008255E8 /* UIKit.framework */; };
+		42321AC31B01485C008255E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42321AC21B01485C008255E8 /* Foundation.framework */; };
+		42321AC81B017870008255E8 /* ESTNotificationDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42321AC61B017870008255E8 /* ESTNotificationDemoVC.m */; };
+		42321AC91B017870008255E8 /* ESTNotificationDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42321AC71B017870008255E8 /* ESTNotificationDemoVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42321A9C1B01470C008255E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42321A7A1B01470C008255E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42321A811B01470C008255E8;
+			remoteInfo = "Fly Proximities";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42321A821B01470C008255E8 /* Fly Proximities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fly Proximities.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42321A861B01470C008255E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42321A871B01470C008255E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42321A891B01470C008255E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42321A8A1B01470C008255E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42321A921B01470C008255E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		42321A951B01470C008255E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		42321A9B1B01470C008255E8 /* Fly ProximitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fly ProximitiesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42321AA01B01470C008255E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42321AA11B01470D008255E8 /* Fly_ProximitiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fly_ProximitiesTests.m; sourceTree = "<group>"; };
+		42321AAB1B01473C008255E8 /* ESTBeaconTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTBeaconTableVC.h; sourceTree = "<group>"; };
+		42321AAC1B01473C008255E8 /* ESTBeaconTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESTBeaconTableVC.m; sourceTree = "<group>"; };
+		42321AAD1B01473C008255E8 /* ESTProximityDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTProximityDemoVC.h; sourceTree = "<group>"; };
+		42321AAE1B01473C008255E8 /* ESTProximityDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESTProximityDemoVC.m; sourceTree = "<group>"; };
+		42321AAF1B01473C008255E8 /* ESTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTViewController.h; sourceTree = "<group>"; };
+		42321AB01B01473C008255E8 /* ESTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESTViewController.m; sourceTree = "<group>"; };
+		42321ABA1B014822008255E8 /* EstimoteSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EstimoteSDK.framework; path = EstimoteSDK/EstimoteSDK.framework; sourceTree = "<group>"; };
+		42321ABC1B01483A008255E8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		42321ABE1B014848008255E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		42321AC01B014852008255E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		42321AC21B01485C008255E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		42321AC41B01489F008255E8 /* Fly Proximities-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Fly Proximities-Prefix.pch"; sourceTree = "<group>"; };
+		42321AC51B017870008255E8 /* ESTNotificationDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTNotificationDemoVC.h; sourceTree = "<group>"; };
+		42321AC61B017870008255E8 /* ESTNotificationDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESTNotificationDemoVC.m; sourceTree = "<group>"; };
+		42321AC71B017870008255E8 /* ESTNotificationDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESTNotificationDemoVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42321A7F1B01470C008255E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42321AC31B01485C008255E8 /* Foundation.framework in Frameworks */,
+				42321AC11B014852008255E8 /* UIKit.framework in Frameworks */,
+				42321ABF1B014848008255E8 /* CoreGraphics.framework in Frameworks */,
+				42321ABD1B01483A008255E8 /* SystemConfiguration.framework in Frameworks */,
+				42321ABB1B014822008255E8 /* EstimoteSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42321A981B01470C008255E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42321A791B01470C008255E8 = {
+			isa = PBXGroup;
+			children = (
+				42321A841B01470C008255E8 /* Fly Proximities */,
+				42321A9E1B01470C008255E8 /* Fly ProximitiesTests */,
+				42321A831B01470C008255E8 /* Products */,
+				42321AC21B01485C008255E8 /* Foundation.framework */,
+				42321AC01B014852008255E8 /* UIKit.framework */,
+				42321ABE1B014848008255E8 /* CoreGraphics.framework */,
+				42321ABC1B01483A008255E8 /* SystemConfiguration.framework */,
+				42321ABA1B014822008255E8 /* EstimoteSDK.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		42321A831B01470C008255E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42321A821B01470C008255E8 /* Fly Proximities.app */,
+				42321A9B1B01470C008255E8 /* Fly ProximitiesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42321A841B01470C008255E8 /* Fly Proximities */ = {
+			isa = PBXGroup;
+			children = (
+				42321A891B01470C008255E8 /* AppDelegate.h */,
+				42321A8A1B01470C008255E8 /* AppDelegate.m */,
+				42321AAB1B01473C008255E8 /* ESTBeaconTableVC.h */,
+				42321AAC1B01473C008255E8 /* ESTBeaconTableVC.m */,
+				42321AAD1B01473C008255E8 /* ESTProximityDemoVC.h */,
+				42321AAE1B01473C008255E8 /* ESTProximityDemoVC.m */,
+				42321AAF1B01473C008255E8 /* ESTViewController.h */,
+				42321AB01B01473C008255E8 /* ESTViewController.m */,
+				42321AC51B017870008255E8 /* ESTNotificationDemoVC.h */,
+				42321AC61B017870008255E8 /* ESTNotificationDemoVC.m */,
+				42321AC71B017870008255E8 /* ESTNotificationDemoVC.xib */,
+				42321A921B01470C008255E8 /* Images.xcassets */,
+				42321A941B01470C008255E8 /* LaunchScreen.xib */,
+				42321A851B01470C008255E8 /* Supporting Files */,
+			);
+			path = "Fly Proximities";
+			sourceTree = "<group>";
+		};
+		42321A851B01470C008255E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42321A861B01470C008255E8 /* Info.plist */,
+				42321A871B01470C008255E8 /* main.m */,
+				42321AC41B01489F008255E8 /* Fly Proximities-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42321A9E1B01470C008255E8 /* Fly ProximitiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				42321AA11B01470D008255E8 /* Fly_ProximitiesTests.m */,
+				42321A9F1B01470C008255E8 /* Supporting Files */,
+			);
+			path = "Fly ProximitiesTests";
+			sourceTree = "<group>";
+		};
+		42321A9F1B01470C008255E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42321AA01B01470C008255E8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42321A811B01470C008255E8 /* Fly Proximities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42321AA51B01470D008255E8 /* Build configuration list for PBXNativeTarget "Fly Proximities" */;
+			buildPhases = (
+				42321A7E1B01470C008255E8 /* Sources */,
+				42321A7F1B01470C008255E8 /* Frameworks */,
+				42321A801B01470C008255E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fly Proximities";
+			productName = "Fly Proximities";
+			productReference = 42321A821B01470C008255E8 /* Fly Proximities.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42321A9A1B01470C008255E8 /* Fly ProximitiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42321AA81B01470D008255E8 /* Build configuration list for PBXNativeTarget "Fly ProximitiesTests" */;
+			buildPhases = (
+				42321A971B01470C008255E8 /* Sources */,
+				42321A981B01470C008255E8 /* Frameworks */,
+				42321A991B01470C008255E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42321A9D1B01470C008255E8 /* PBXTargetDependency */,
+			);
+			name = "Fly ProximitiesTests";
+			productName = "Fly ProximitiesTests";
+			productReference = 42321A9B1B01470C008255E8 /* Fly ProximitiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42321A7A1B01470C008255E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "___FlyInc___";
+				TargetAttributes = {
+					42321A811B01470C008255E8 = {
+						CreatedOnToolsVersion = 6.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					42321A9A1B01470C008255E8 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 42321A811B01470C008255E8;
+					};
+				};
+			};
+			buildConfigurationList = 42321A7D1B01470C008255E8 /* Build configuration list for PBXProject "Fly Proximities" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42321A791B01470C008255E8;
+			productRefGroup = 42321A831B01470C008255E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42321A811B01470C008255E8 /* Fly Proximities */,
+				42321A9A1B01470C008255E8 /* Fly ProximitiesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42321A801B01470C008255E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42321A961B01470C008255E8 /* LaunchScreen.xib in Resources */,
+				42321A931B01470C008255E8 /* Images.xcassets in Resources */,
+				42321AC91B017870008255E8 /* ESTNotificationDemoVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42321A991B01470C008255E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42321A7E1B01470C008255E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42321A8B1B01470C008255E8 /* AppDelegate.m in Sources */,
+				42321AC81B017870008255E8 /* ESTNotificationDemoVC.m in Sources */,
+				42321AB31B01473C008255E8 /* ESTViewController.m in Sources */,
+				42321AB11B01473C008255E8 /* ESTBeaconTableVC.m in Sources */,
+				42321AB21B01473C008255E8 /* ESTProximityDemoVC.m in Sources */,
+				42321A881B01470C008255E8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42321A971B01470C008255E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42321AA21B01470D008255E8 /* Fly_ProximitiesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42321A9D1B01470C008255E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42321A811B01470C008255E8 /* Fly Proximities */;
+			targetProxy = 42321A9C1B01470C008255E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42321A941B01470C008255E8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42321A951B01470C008255E8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42321AA31B01470D008255E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42321AA41B01470D008255E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42321AA61B01470D008255E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EstimoteSDK",
+				);
+				INFOPLIST_FILE = "Fly Proximities/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42321AA71B01470D008255E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EstimoteSDK",
+				);
+				INFOPLIST_FILE = "Fly Proximities/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		42321AA91B01470D008255E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Fly ProximitiesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fly Proximities.app/Fly Proximities";
+			};
+			name = Debug;
+		};
+		42321AAA1B01470D008255E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Fly ProximitiesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fly Proximities.app/Fly Proximities";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42321A7D1B01470C008255E8 /* Build configuration list for PBXProject "Fly Proximities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42321AA31B01470D008255E8 /* Debug */,
+				42321AA41B01470D008255E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42321AA51B01470D008255E8 /* Build configuration list for PBXNativeTarget "Fly Proximities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42321AA61B01470D008255E8 /* Debug */,
+				42321AA71B01470D008255E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42321AA81B01470D008255E8 /* Build configuration list for PBXNativeTarget "Fly ProximitiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42321AA91B01470D008255E8 /* Debug */,
+				42321AAA1B01470D008255E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42321A7A1B01470C008255E8 /* Project object */;
+}
